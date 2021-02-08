@@ -1,5 +1,6 @@
 #!/bin/bash
 
-git clone "https://aur.archlinux.org/$1.git"
+git clone "https://github.com/CoolapkLinux/Coolapk-Linux-PKGBUILD.git"
+cd pkgbuild
 cd "$1"
 makepkg -sf --noconfirm
